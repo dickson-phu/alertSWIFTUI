@@ -14,6 +14,8 @@
 		2373DAB429F1597F0082E2B9 /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DAB329F1597F0082E2B9 /* AlertTests.swift */; };
 		2373DABE29F1597F0082E2B9 /* AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DABD29F1597F0082E2B9 /* AlertUITests.swift */; };
 		2373DAC029F1597F0082E2B9 /* AlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DABF29F1597F0082E2B9 /* AlertUITestsLaunchTests.swift */; };
+		2395F7BD29F3E8B800FDBA7B /* CustomButtonChannelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395F7BC29F3E8B800FDBA7B /* CustomButtonChannelStyle.swift */; };
+		2395F7BF29F3ECD200FDBA7B /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395F7BE29F3ECD200FDBA7B /* ChannelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2373DAB929F1597F0082E2B9 /* AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2373DABD29F1597F0082E2B9 /* AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUITests.swift; sourceTree = "<group>"; };
 		2373DABF29F1597F0082E2B9 /* AlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2395F7BC29F3E8B800FDBA7B /* CustomButtonChannelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonChannelStyle.swift; sourceTree = "<group>"; };
+		2395F7BE29F3ECD200FDBA7B /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		2373DA9629F159790082E2B9 = {
 			isa = PBXGroup;
 			children = (
+				2395F7BA29F3E88000FDBA7B /* Controls */,
 				2373DAA129F159790082E2B9 /* Alert */,
 				2373DAB229F1597F0082E2B9 /* AlertTests */,
 				2373DABC29F1597F0082E2B9 /* AlertUITests */,
@@ -98,6 +103,7 @@
 				2373DAA429F159790082E2B9 /* ContentView.swift */,
 				2373DAA629F1597E0082E2B9 /* Assets.xcassets */,
 				2373DAA829F1597E0082E2B9 /* Preview Content */,
+				2395F7BE29F3ECD200FDBA7B /* ChannelView.swift */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -125,6 +131,22 @@
 				2373DABF29F1597F0082E2B9 /* AlertUITestsLaunchTests.swift */,
 			);
 			path = AlertUITests;
+			sourceTree = "<group>";
+		};
+		2395F7BA29F3E88000FDBA7B /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2395F7BB29F3E8A100FDBA7B /* CustomButtons */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		2395F7BB29F3E8A100FDBA7B /* CustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				2395F7BC29F3E8B800FDBA7B /* CustomButtonChannelStyle.swift */,
+			);
+			path = CustomButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2395F7BF29F3ECD200FDBA7B /* ChannelView.swift in Sources */,
+				2395F7BD29F3E8B800FDBA7B /* CustomButtonChannelStyle.swift in Sources */,
 				2373DAA529F159790082E2B9 /* ContentView.swift in Sources */,
 				2373DAA329F159790082E2B9 /* AlertApp.swift in Sources */,
 			);
